@@ -6,8 +6,9 @@ GreenGuard is a home plant/garden monitoring system for all those green fingered
 -	Raspberry PI 4
 -	Raspberry PI Moisture Sensor
 -	Raspbian OS
-- MCP3008 * Channel 10-Bit ADC With SPI Interface
+- MCP3008 8 Channel 10-Bit ADC With SPI Interface
 -	Python Programming Language
 -	ThingSpeak – ThingSpeak for IOT Projects
 -	Project Repository
 
+![alt text](dataflowdiagram.jpg "Data Flow Diagram")
