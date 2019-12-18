@@ -76,3 +76,40 @@ if __name__ == "__main__":
 ### Sensor Probes in Water
 ![alt text](moisture_spipyinwater.jpg "Sensor Readings in Water")
 
+### ThingSpeak Channel with O/P from ADC
+
+![alt text](moisturevolts.jpg "ThingSpeak Chanel With Output from ADC")
+
+Readings from ADC
+
+1023 Equivalent to 0% moisture
+
+0 equivalent to 100% Moisture
+
+Therefore the Slope and Intercept required to convert the ADC Output to % Moi (Assuming relationship is Linear)
+
+Slope = -0.9775
+
+Intercept = 100
+
+### MathLab Analysis Code for Conversion to % Moisture
+
+```MathLab
+% Enter your MATLAB Code below
+
+readChId = 938442; % Channel ID for Greenguard ADC channel
+writeChId = 940552; % Channel ID for Dew channel
+readKey = 'CNNN91829WXHWOB2'; % Read key for Greenguard ADC channel
+writeKey = '10RI2YMW1BK5CY6R';  % Write key for %Moisture Channel
+moiadc = thingSpeakRead(readChId,'Fields',1,'NumPoints',1,'Readkey',readKey);
+Slope = -0.09775;
+Intercept = 100;
+moisture = moiadc * Slope + Intercept
+thingSpeakWrite(writeChId,[moisture],'Fields',1,'Writekey',writeKey);
+```
+
+This code runs every 5 mins via a ThingSpeak Time Control (Minimun Time Allowed in ThingSpeak)
+
+![alt text](moisturepercent.jpg "ThingSpeak Channel With %Moisture")
+
+
