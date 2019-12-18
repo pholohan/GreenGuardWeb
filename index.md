@@ -12,3 +12,7 @@ GreenGuard is a home plant/garden monitoring system for all those green fingered
 -	Project Repository
 
 ![alt text](dataflowdiagram.jpg "Data Flow Diagram")
+
+Things Speak Moisture Channel - Click for Live Link
+- https://thingspeak.com/channels/938442/)
+
