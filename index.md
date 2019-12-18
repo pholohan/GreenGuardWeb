@@ -2,6 +2,7 @@
 
 GreenGuard is a home plant/garden monitoring system for all those green fingered people with a passion for their flora/fauna. The system will monitor your plants at home and provide the moisture content of the soil in which your plant is contained. Using ThingSpeak the user will get a live reading of the moisture content and when the moisture content drops below a certain value then the user will be alerted via email and twitter that the plant/plants need watering. 
 
+![alt text](MoistureSensor.jpg "Wiring Diagram")
 
 -	Raspberry PI 4
 -	Raspberry PI Moisture Sensor
@@ -11,8 +12,13 @@ GreenGuard is a home plant/garden monitoring system for all those green fingered
 -	ThingSpeak – ThingSpeak for IOT Projects
 -	Project Repository
 
+### Data Flow Diagram
+
 ![alt text](dataflowdiagram.jpg "Data Flow Diagram")
 
-Things Speak Moisture Channel - Click for Live Link
+### Things Speak Moisture Channel - Click for Live Link
 - https://thingspeak.com/channels/938442/)
 
+### Wiring Diagram for the MCP3008 8 Channel 10-Bit ADC With SPI Interface and the Raspberry PI
+
+![alt text](MCP3008Wiring.jpg "Wiring Diagram")
