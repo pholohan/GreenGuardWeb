@@ -112,4 +112,12 @@ This code runs every 5 mins via a ThingSpeak Time Control (Minimun Time Allowed 
 
 ![alt text](moisturepercent.jpg "ThingSpeak Channel With %Moisture")
 
+### A ThingSpeak React has also been figured to send a Tweet When Moisture Level > 1020
+
+![alt text](React.jpg "ThingSpeak React")
+
+And this Tweets my Smart_Home_PH account with a message as below
+![alt text](Tweet.png "Twitter")
+
+
 
