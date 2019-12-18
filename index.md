@@ -71,5 +71,8 @@ if __name__ == "__main__":
   except KeyboardInterrupt:
     print "Cancel."
 ```
-
+### Sensor Probes not in Water
+![alt text](moisture_spipy.jpg "Sensor Readings No Water")
+### Sensor Probes in Water
+![alt text](moisture_spipyinwater.jpg "Sensor Readings in Water")
 
