@@ -114,7 +114,9 @@ thingSpeakWrite(writeChId,[moisture],'Fields',1,'Writekey',writeKey);
 
 This code runs every 5 mins via a ThingSpeak Time Control (Minimun Time Allowed in ThingSpeak)
 
-![alt text](moisturepercent.jpg "ThingSpeak Channel With %Moisture")
+<figure class="video_container">
+  <iframe width="450" height="260" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/940552/charts/1?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=60&type=line&update=15"></iframe>
+</figure>
 
 ### A ThingSpeak React has also been figured to send a Tweet When Moisture Level > 1020
 
