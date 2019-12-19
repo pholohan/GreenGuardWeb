@@ -17,7 +17,7 @@ GreenGuard is a home plant/garden monitoring system for all those green fingered
 ![alt text](dataflowdiagram.jpg "Data Flow Diagram")
 
 ### Things Speak Moisture Channel - Click for Live Link
-- https://thingspeak.com/channels/938442/
+- (https://thingspeak.com/channels/938442/)
 
 ### Wiring Diagram for the MCP3008 8 Channel 10-Bit ADC With SPI Interface and the Raspberry PI
 
