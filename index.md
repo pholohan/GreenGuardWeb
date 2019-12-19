@@ -76,7 +76,11 @@ if __name__ == "__main__":
 ### Sensor Probes in Water
 ![alt text](moisture_spipyinwater.jpg "Sensor Readings in Water")
 
-### ThingSpeak Channel with O/P from ADC
+### ThingSpeak Channel with O/P from ADC **** Live Update ****
+
+<figure class="video_container">
+  <iframe width="450" height="260" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/938442/charts/1?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=60&title=Moisture+Voltage&type=line"></iframe>
+</figure>
 
 ![alt text](moisturevolts.jpg "ThingSpeak Chanel With Output from ADC")
 
@@ -119,7 +123,5 @@ This code runs every 5 mins via a ThingSpeak Time Control (Minimun Time Allowed 
 And this Tweets my Smart_Home_PH account with a message as below
 ![alt text](Tweet.png "Twitter")
 
-<figure class="video_container">
-  <iframe width="450" height="260" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/938442/charts/1?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=60&title=Moisture+Voltage&type=line"></iframe>
-</figure>
+
   
